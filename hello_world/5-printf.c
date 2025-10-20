@@ -3,17 +3,12 @@
 /**
  * main - Entry point
  *
- * Description: Prints a piece of art using printf
+ * Description: Prints the required phrase using printf
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	printf("  *     *  \n");
-	printf(" ***   *** \n");
-	printf("***********\n");
-	printf("   ***   \n");
-	printf("    *\n");
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
-
