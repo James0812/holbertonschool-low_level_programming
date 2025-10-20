@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h> /* pour rand() et RAND_MAX */
 
 /**
  * main - prints the last digit of a random number
