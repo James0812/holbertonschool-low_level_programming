@@ -7,20 +7,20 @@
  */
 int main(void)
 {
-    char c;
-    char C;
+	char c;
+	char C;
 
-    /* Print alphabet in lowercase */
-    for (c = 'a'; c <= 'z'; c++)
-        putchar(c);
+	/* Print alphabet in lowercase */
+	for (c = 'a'; c <= 'z'; c++)
+		putchar(c);
 
-    /* Print alphabet in uppercase */
-    for (C = 'A'; C <= 'Z'; C++)
-        putchar(C);
+	/* Print alphabet in uppercase */
+	for (C = 'A'; C <= 'Z'; C++)
+		putchar(C);
 
-    /* Print newline */
-    putchar('\n');
+	/* Print newline */
+	putchar('\n');
 
-    return (0);
+	return (0);
 }
 
