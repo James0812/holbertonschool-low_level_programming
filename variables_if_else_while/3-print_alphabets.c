@@ -9,15 +9,15 @@ int main(void)
     char c;
     char C;
 
-    // Alphabet en minuscules
+    /* Alphabet in lowercase */
     for (c = 'a'; c <= 'z'; c++)
         putchar(c);
 
-    // Alphabet en majuscules
+    /* Alphabet in uppercase */
     for (C = 'A'; C <= 'Z'; C++)
         putchar(C);
 
-    // Nouvelle ligne à la fin
+    /* Newline at the end */
     putchar('\n');
 
     return 0;
