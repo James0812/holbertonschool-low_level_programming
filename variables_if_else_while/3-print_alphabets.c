@@ -1,20 +1,25 @@
 #include <stdio.h>
 
 /**
- * main - print prints the alphabet in lowercase, and then in uppercase
+ * main - prints the alphabet in lowercase, and then in uppercase
  * Return: 0
  */
 int main(void)
-
 {
-	char c;
+    char c;
+    char C;
 
-	for (c = 'a'; c <= 'z'; c++)
-	putchar (c);
+    // Alphabet en minuscules
+    for (c = 'a'; c <= 'z'; c++)
+        putchar(c);
 
-	for (C = 'A'; c <= 'Z'; c++)
-	putachar (c);
-     putchar('/n');
-    
-     Return (0);
-}     
+    // Alphabet en majuscules
+    for (C = 'A'; C <= 'Z'; C++)
+        putchar(C);
+
+    // Nouvelle ligne à la fin
+    putchar('\n');
+
+    return 0;
+}
+
