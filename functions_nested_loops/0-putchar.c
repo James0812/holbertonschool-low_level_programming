@@ -1,12 +1,13 @@
-#include <stdio.h>
+#include <unistd.h>
 
 /**
- * main - prints _putchar followed by a new line
- * Return: 0
+ * main - prints "_putchar" followed by a new line
+ *
+ * Return: 0 (success)
  */
 int main(void)
 {
-    printf("_putchar\n");
-    return (0);
+	write(1, "_putchar\n", 9);
+	return (0);
 }
 
