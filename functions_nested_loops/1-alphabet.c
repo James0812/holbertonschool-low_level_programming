@@ -8,18 +8,8 @@ void print_alphabet(void)
     char c;
 
     for (c = 'a'; c <= 'z'; c++)
-        _putchar(c);
+        _putchar(c);  /* First _putchar used for each letter */
 
-    _putchar('\n');
-}
-
-/**
- * main - calls the print_alphabet function
- * Return: 0
- */
-int main(void)
-{
-    print_alphabet();
-    return (0);
+    _putchar('\n');    /* Second _putchar used for newline */
 }
 
