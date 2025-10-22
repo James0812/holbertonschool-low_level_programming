@@ -2,7 +2,7 @@
 #define MAIN_H
 
 int _putchar(char n);
-int print_sign(int n);
+int _abs(int n);
 
 #endif /* MAIN_H */
 
