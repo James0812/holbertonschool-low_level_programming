@@ -5,7 +5,6 @@
 int _putchar(char c);
 
 /* Declaration of more_numbers */
-void more_numbers(void);
+void print_line(int n);
 
 #endif /* MAIN_H */
-
