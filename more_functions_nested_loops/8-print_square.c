@@ -2,7 +2,7 @@
 
 /**
  * print_square - prints a square using '#' characters
- * @size: the size of the square
+ * @size: size of the square
  */
 void print_square(int size)
 {
@@ -18,4 +18,9 @@ void print_square(int size)
     {
         for (j = 0; j < size; j++) /* loop over columns */
         {
+            _putchar('#');
+        }
+        _putchar('\n'); /* new line after each row */
+    }
+}
 
