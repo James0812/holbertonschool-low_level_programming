@@ -5,6 +5,6 @@
 int _putchar(char c);
 
 /* Declaration of more_numbers */
-void print_line(int n);
+void print_diagonal(int n);
 
 #endif /* MAIN_H */
