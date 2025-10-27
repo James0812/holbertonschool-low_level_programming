@@ -1,9 +1,11 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-/* Declaration of the _putchar function */
+/* Declaration of _putchar */
 int _putchar(char c);
 
-/* Declaration of the print_numbers function */
+/* Declaration of more_numbers */
 void more_numbers(void);
-endif /* MAIN_H */
+
+#endif /* MAIN_H */
+
