@@ -1,8 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-/* Prototype of _strlen function */
-int _strlen(char *s);
+void _puts(char *str)
 
 #endif /* MAIN_H */
 
