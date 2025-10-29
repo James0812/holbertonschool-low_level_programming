@@ -3,28 +3,65 @@
 
 #include <stdio.h>
 
-/* Prototypes from previous tasks */
+/* 0x05. Pointers, arrays and strings */
+
+/* Task 0 - reset_to_98 */
 void reset_to_98(int *n);
+
+/* Task 1 - swap_int */
 void swap_int(int *a, int *b);
+
+/* Task 2 - _strlen */
 int _strlen(char *s);
+
+/* Task 3 - _puts */
 void _puts(char *str);
+
+/* Task 4 - print_rev */
 void print_rev(char *s);
+
+/* Task 5 - rev_string */
 void rev_string(char *s);
+
+/* Task 6 - puts2 */
 void puts2(char *str);
+
+/* Task 7 - puts_half */
 void puts_half(char *str);
+
+/* Task 8 - print_array */
 void print_array(int *a, int n);
+
+/* Task 9 - _strcpy */
 char *_strcpy(char *dest, char *src);
+
+/* Task 10 - _atoi */
 int _atoi(char *s);
 
-/* Prototypes for string manipulation */
+/* 0x06. More pointers, arrays and strings */
+
+/* Task 0 - _strcat */
 char *_strcat(char *dest, char *src);
+
+/* Task 1 - _strncat */
 char *_strncat(char *dest, char *src, int n);
+
+/* Task 2 - _strncpy */
 char *_strncpy(char *dest, char *src, int n);
+
+/* Task 3 - _strcmp */
 int _strcmp(char *s1, char *s2);
+
+/* Task 4 - reverse_array */
 void reverse_array(int *a, int n);
+
+/* Task 5 - string_toupper */
 char *string_toupper(char *s);
 
-/* Provided function */
+/* Task 6 - cap_string */
+char *cap_string(char *s);
+
+/* Prototype for _putchar */
 int _putchar(char c);
 
 #endif /* MAIN_H */
