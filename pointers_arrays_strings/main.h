@@ -4,10 +4,10 @@
 /**
  * File: main.h
  * Auth: Your Name
- * Desc: Header file containing prototype for function _strstr.
+ * Desc: Header file containing prototype for print_chessboard.
  */
 
-char *_strstr(char *haystack, char *needle);
+void print_chessboard(char (*a)[8]);
 
 #endif /* MAIN_H */
 
