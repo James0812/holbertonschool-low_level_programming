@@ -4,10 +4,10 @@
 /**
  * File: main.h
  * Auth: Your Name
- * Desc: Header file containing prototype for print_chessboard.
+ * Desc: Header file containing prototype for print_diagsums.
  */
 
-void print_chessboard(char (*a)[8]);
+void print_diagsums(int *a, int size);
 
 #endif /* MAIN_H */
 
