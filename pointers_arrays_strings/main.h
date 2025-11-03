@@ -4,10 +4,10 @@
 /**
  * File: main.h
  * Auth: Your Name
- * Desc: Header file containing prototype for function _memcpy.
+ * Desc: Header file containing prototype for function _strspn.
  */
 
-char *_memcpy(char *dest, char *src, unsigned int n);
+unsigned int _strspn(char *s, char *accept);
 
 #endif /* MAIN_H */
 
