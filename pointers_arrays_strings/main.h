@@ -4,10 +4,10 @@
 /**
  * File: main.h
  * Auth: Your Name
- * Desc: Header file containing prototype for function _strspn.
+ * Desc: Header file containing prototype for function _strpbrk.
  */
 
-unsigned int _strspn(char *s, char *accept);
+char *_strpbrk(char *s, char *accept);
 
 #endif /* MAIN_H */
 
