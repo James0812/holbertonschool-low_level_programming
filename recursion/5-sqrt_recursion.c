@@ -6,9 +6,6 @@
  * @guess: current guess
  *
  * Return: square root if exists, -1 otherwise
- *
- * Description: recursively tries each integer starting from 0 until
- * the square matches n or exceeds it.
  */
 static int _sqrt_helper(int n, int guess)
 {
@@ -25,7 +22,8 @@ static int _sqrt_helper(int n, int guess)
  * _sqrt_recursion - returns the natural square root of n
  * @n: number to find the square root of
  *
- * Return: natural square root, -1 if none exists
+ * Return: natural square root of n
+ *         -1 if none exists
  */
 int _sqrt_recursion(int n)
 {
