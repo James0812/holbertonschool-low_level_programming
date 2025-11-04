@@ -1,3 +1,4 @@
+#include "main.h"
 #include <unistd.h>
 
 /**
@@ -5,13 +6,14 @@
  * @s: pointer to the string to print
  *
  * Description: prints each character recursively using write().
+ * The function stops at the null terminator and prints '\n'.
  */
 void _puts_recursion(char *s)
 {
     /* Base case: end of string */
     if (*s == '\0')
     {
-        write(1, "\n", 1); /* print newline */
+        write(1, "\n", 1);
         return;
     }
 
