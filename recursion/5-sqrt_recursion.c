@@ -1,23 +1,23 @@
 #include "main.h"
 
 /**
- * _sqrt_helper - helper function to find square root recursively
+ * _sqrt_helper - helper function to find natural square root recursively
  * @n: number to find the square root of
- * @guess: current guess for square root
+ * @guess: current guess
  *
- * Return: square root if it exists, -1 otherwise
+ * Return: square root if exists, -1 otherwise
+ *
+ * Description: recursively tries each integer starting from 0 until
+ * the square matches n or exceeds it.
  */
 static int _sqrt_helper(int n, int guess)
 {
-	/* If square is greater than n, no natural square root exists */
 	if (guess * guess > n)
 		return (-1);
 
-	/* If square matches n, we found the square root */
 	if (guess * guess == n)
 		return (guess);
 
-	/* Recursive case: try next guess */
 	return (_sqrt_helper(n, guess + 1));
 }
 
@@ -25,8 +25,7 @@ static int _sqrt_helper(int n, int guess)
  * _sqrt_recursion - returns the natural square root of n
  * @n: number to find the square root of
  *
- * Return: natural square root of n
- *         -1 if n does not have a natural square root
+ * Return: natural square root, -1 if none exists
  */
 int _sqrt_recursion(int n)
 {
