@@ -7,7 +7,7 @@
  *
  * Return: square root if exists, -1 otherwise
  */
-static int _sqrt_helper(int n, int guess)
+int _sqrt_helper(int n, int guess)
 {
 	if (guess * guess > n)
 		return (-1);
