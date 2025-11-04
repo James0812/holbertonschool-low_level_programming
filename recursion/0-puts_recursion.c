@@ -10,17 +10,17 @@
  */
 void _puts_recursion(char *s)
 {
-    /* Base case: end of string */
-    if (*s == '\0')
-    {
-        write(1, "\n", 1);
-        return;
-    }
+	/* Base case: end of string */
+	if (*s == '\0')
+	{
+		write(1, "\n", 1);
+		return;
+	}
 
-    /* Print the current character */
-    write(1, s, 1);
+	/* Print the current character */
+	write(1, s, 1);
 
-    /* Recursive call for the next character */
-    _puts_recursion(s + 1);
+	/* Recursive call for the next character */
+	_puts_recursion(s + 1);
 }
 
