@@ -21,7 +21,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	if (d == NULL)
 		return (NULL);
 
-	/* Copy name manually */
+	/* copy name manually */
 	if (name)
 	{
 		for (len = 0; name[len]; len++)
@@ -36,7 +36,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 			name_copy[i] = name[i];
 	}
 
-	/* Copy owner manually */
+	/* copy owner manually */
 	if (owner)
 	{
 		for (len = 0; owner[len]; len++)
