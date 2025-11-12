@@ -1,7 +1,7 @@
 #include "main.h"
 
-/* Definition of init_dog */
-void init_dog(struct dog *d, char *name, float age, char *owner)
+/* Function to initialize a dog struct */
+void init_dog(dog_t *d, char *name, float age, char *owner)
 {
     if (d == NULL)
         return;
