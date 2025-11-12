@@ -3,12 +3,7 @@
 
 #include <stddef.h>
 
-/**
- * struct dog - Structure representing a dog
- * @name: Name of the dog
- * @age: Age of the dog
- * @owner: Owner of the dog
- */
+/* Structure dog */
 struct dog
 {
     char *name;
@@ -16,7 +11,7 @@ struct dog
     char *owner;
 };
 
-/* Prototype for init_dog function */
+/* Prototype de init_dog */
 void init_dog(struct dog *d, char *name, float age, char *owner);
 
 #endif /* MAIN_H */
