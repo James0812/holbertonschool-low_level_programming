@@ -1,6 +1,8 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+#include <stddef.h>
+
 /**
  * struct dog - represents a dog
  * @name: name of the dog
