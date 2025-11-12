@@ -7,9 +7,7 @@ int main(void)
 
     init_dog(&my_dog, "Ghost", 4.75, "Jon Snow");
 
-    printf("Name: %s\n", my_dog.name);
-    printf("Age: %.2f\n", my_dog.age);
-    printf("Owner: %s\n", my_dog.owner);
+    print_dog(&my_dog);
 
     return 0;
 }
