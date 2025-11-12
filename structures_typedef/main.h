@@ -3,7 +3,7 @@
 
 #include <stddef.h>
 
-/* Structure dog */
+/* Struct dog */
 struct dog
 {
     char *name;
@@ -11,7 +11,7 @@ struct dog
     char *owner;
 };
 
-/* Prototype de init_dog */
+/* Prototype for init_dog */
 void init_dog(struct dog *d, char *name, float age, char *owner);
 
 #endif /* MAIN_H */
