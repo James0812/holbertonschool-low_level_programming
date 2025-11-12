@@ -3,20 +3,15 @@
 
 #include <stddef.h>
 
-/**
- * struct dog - represents a dog
- * @name: name of the dog
- * @age: age of the dog
- * @owner: owner of the dog
- */
+/* Structure dog */
 struct dog
 {
-	char *name;
-	float age;
-	char *owner;
+    char *name;
+    float age;
+    char *owner;
 };
 
-/* Prototype for init_dog */
+/* Prototype de init_dog */
 void init_dog(struct dog *d, char *name, float age, char *owner);
 
 #endif /* MAIN_H */
