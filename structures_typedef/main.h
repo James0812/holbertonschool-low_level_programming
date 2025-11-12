@@ -3,16 +3,16 @@
 
 #include <stddef.h>
 
-/* Structure dog */
-typedef struct dog
+/* Structure representing a dog */
+struct dog
 {
-    char *name;
-    float age;
-    char *owner;
-} dog_t;
+	char *name;
+	float age;
+	char *owner;
+};
 
-/* Prototype of init_dog */
-void init_dog(dog_t *d, char *name, float age, char *owner);
+/* Prototype of init_dog function */
+void init_dog(struct dog *d, char *name, float age, char *owner);
 
 #endif /* MAIN_H */
 
