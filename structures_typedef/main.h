@@ -1,9 +1,12 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-#include <stddef.h>
-
-/* Structure dog */
+/**
+ * struct dog - structure for a dog
+ * @name: name of the dog
+ * @age: age of the dog
+ * @owner: owner of the dog
+ */
 struct dog
 {
     char *name;
@@ -11,8 +14,8 @@ struct dog
     char *owner;
 };
 
-/* Prototype de init_dog */
-void init_dog(struct dog *d, char *name, float age, char *owner);
+/* Prototype of the function that prints a dog */
+void print_dog(struct dog *d);
 
 #endif /* MAIN_H */
 
