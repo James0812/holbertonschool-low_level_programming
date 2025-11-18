@@ -3,7 +3,11 @@
 
 #include <stddef.h>  /* For size_t and NULL */
 
-/* Struct to link operator string to function */
+/**
+ * struct op - struct to link operator string to its function
+ * @op: operator as a string (+, -, *, /, %)
+ * @f: pointer to the function that performs the operation
+ */
 typedef struct op
 {
 	char *op;
