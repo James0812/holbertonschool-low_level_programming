@@ -1,4 +1,4 @@
-#include <stddef.h>     /* For NULL */
+#include <stddef.h>  /* For NULL */
 #include "3-calc.h"
 
 /**
@@ -18,6 +18,16 @@ int (*get_op_func(char *s))(int, int)
 		{NULL, NULL}
 	};
 
-	return (s && ops[0].op ? ops[0].f : NULL);
+	int i = 0;
+
+	if (s)
+		while (ops[i].op)
+		{
+			if (*s == *ops[i].op)
+				return (ops[i].f);
+			i++;
+		}
+
+	return (NULL);
 }
 
