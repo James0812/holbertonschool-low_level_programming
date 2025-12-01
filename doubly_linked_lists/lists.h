@@ -17,9 +17,26 @@ typedef struct dlistint_s
 } dlistint_t;
 
 /* Function prototypes */
+
+/* Add a node at the beginning */
+dlistint_t *add_dnodeint(dlistint_t **head, int n);
+
+/* Add a node at the end */
+dlistint_t *add_dnodeint_end(dlistint_t **head, int n);
+
+/* Insert a node at a given index */
+dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n);
+
+/* Free a doubly linked list */
 void free_dlistint(dlistint_t *head);
+
+/* Print all elements of a doubly linked list */
 int print_dlistint(const dlistint_t *h);
+
+/* Get the nth node of a doubly linked list */
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index);
+
+/* Sum of all data in a doubly linked list */
 int sum_dlistint(dlistint_t *head);
 
 #endif /* LISTS_H */
