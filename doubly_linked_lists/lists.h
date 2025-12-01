@@ -27,6 +27,9 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, int n);
 /* Insert a node at a given index */
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n);
 
+/* Delete a node at a given index */
+int delete_dnodeint_at_index(dlistint_t **head, unsigned int index);
+
 /* Free a doubly linked list */
 void free_dlistint(dlistint_t *head);
 
