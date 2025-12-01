@@ -3,12 +3,6 @@
 
 #include <stdlib.h>
 
-/**
- * struct dlistint_s - structure of a node in a doubly linked list
- * @n: integer stored in the node
- * @prev: pointer to the previous node
- * @next: pointer to the next node
- */
 typedef struct dlistint_s
 {
     int n;
@@ -16,8 +10,9 @@ typedef struct dlistint_s
     struct dlistint_s *next;
 } dlistint_t;
 
-/* Prototype of the function to free a doubly linked list */
+/* Function prototypes */
 void free_dlistint(dlistint_t *head);
+int print_dlistint(const dlistint_t *h);
 
 #endif /* LISTS_H */
 
